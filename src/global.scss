@@ -9,3 +9,21 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+// Omar El Tokhy 1300207, adding fonts to global.scss
+
+@font-face {
+    font-family: Open-Sans;
+    src: url('../assets/fonts/Open-Sans.woff2')format(".woff2");
+}
+*{
+    font-family: Open-Sans;
+}
+
+@font-face {
+    font-family: BalooBhai;
+    src: url('../assets.fonts/BalooBhai.woff2')format(".woff2");
+}
+*{
+    font-family: BalooBhai;
+}

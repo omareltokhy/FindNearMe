@@ -9,9 +9,14 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// Omar El Tokhy 1300207, importing pages
+import { WelcomePage } from '../app/welcome/welcome.page';
+import { TabsPage } from './tabs/tabs.page';
+import { LoginPage } from '../app/login/login.page';
+
 @NgModule({
-  declarations: [AppComponent],
-  entryComponents: [],
+  declarations: [AppComponent, TabsPage, WelcomePage ],
+  entryComponents: [AppComponent, TabsPage, WelcomePage],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
     StatusBar,
